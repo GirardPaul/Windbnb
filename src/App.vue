@@ -6,8 +6,4 @@ import Home from "./layouts/Home.vue";
   <Home />
 </template>
 
-<style scoped>
-main {
-  padding: 0 91px;
-}
-</style>
+<style scoped></style>

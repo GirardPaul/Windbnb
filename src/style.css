@@ -12,10 +12,24 @@ body {
   display: flex;
 }
 
+.column {
+  flex-direction: column;
+}
 .justify-center {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .align-center {
   align-items: center;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+  body {
+    padding: 19px 13px;
+  }
 }

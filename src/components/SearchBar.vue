@@ -4,6 +4,15 @@ defineProps({
     type: Boolean,
     default: false,
   },
+  searchCity: {
+    type: String,
+  },
+  staysCity: {
+    type: Array,
+  },
+  guests: {
+    type: Number,
+  },
 });
 </script>
 
@@ -12,7 +21,7 @@ defineProps({
     <!-- City search -->
     <div class="flex p-16 border-right-grey">
       <p v-show="isActive" class="label">Location</p>
-      <p class="content">Helsinki, Finland</p>
+      <p class="content">{{ searchCity }}</p>
     </div>
     <!-- Guest options -->
     <div class="flex p-16 border-right-grey">
