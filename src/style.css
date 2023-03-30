@@ -19,12 +19,23 @@ body {
   justify-content: center;
 }
 
+.d-none {
+  display: none;
+}
+
 .justify-between {
   justify-content: space-between;
 }
 
 .align-center {
   align-items: center;
+}
+.full {
+  width: 100%;
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 /* RESPONSIVE */
