@@ -237,7 +237,7 @@ header {
   }
 }
 
-@media screen and (min-width: 471px) and (max-width: 767px) {
+@media screen and (min-width: 471px) and (max-width: 1024px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
   }
